@@ -1,0 +1,19 @@
+{
+    "name": "alancrisp/google-api-php-client",
+    "description": "Google APIs client library for PHP",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Alan Crisp",
+            "email": "git@alancrisp.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+}
